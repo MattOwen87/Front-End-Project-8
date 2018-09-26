@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0;
+  background-image: url(svgs/background.svg);
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  margin: 10px;
+  padding-top: 15px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+}
+
+
+.heart {
+  height: 20px;
+}
+
+.visit {
+  height: 20px;
+}
+
+.contact {
+  height: 20px;
+}
+
+.st1 {
+  opacity: 0;
+}
+
+#Layer_2 {
+  display: none;
+}
+
+
+li:hover path {
+  fill: #EAAA7F;
+  transition: ease-in;
+  transition-duration: .5s;
+}
+
+
+li:hover a {
+  color: #EAAA7F;
+  transition: ease-in;
+  transition-duration: .5s;
+}
+
+
+svg:hover {
+  transform: scale(1.2);
+  transition-timing-function: ease-in-out;
+  transition-duration: .5s;
+
+}
+
+
+.corgiContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.corgiColors {
+  color: #EAAA7F;
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+
+.sableCorgi  {
+  fill: #BA8058;
+
+}
+
+
+
+.fawnCorgi {
+  fill: #F4C6A6;
+
+}
+
+.redCorgi {
+  fill: #A0522D;
+
+}
+
+.stoneCorgi {
+  fill:#52595F;
+
+}
+
+
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+@media screen and (min-width: 425px) {
+  .st1 {
+    opacity: 1;
+  }
+
+  #logoTitle {
+    display: none;
+  }
+}
